@@ -1,0 +1,8 @@
+
+!3 !-fit:fit.FitServer-!
+|'''Date: '''| 7:38:09 오후 (KST) on 화요일, 10월 7, 2014 |
+|'''Test Page: '''|.ChatRoomTest|
+|'''Command: '''| !-java -cp /Users/ekim/.m2/repository/org/fitnesse/fitnesse/20140901/fitnesse-20140901.jar:target/classes fit.FitServer kr-ekim1ml1 60687 3863-! |
+|'''Exit code: '''| 0 |
+|'''Time elapsed: '''| 0.354 seconds |
+

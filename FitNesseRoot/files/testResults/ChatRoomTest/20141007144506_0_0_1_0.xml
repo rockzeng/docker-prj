@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20140901</FitNesseVersion>
+  <rootPath>ChatRoomTest</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>6</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>2</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;div class="contents"&gt;
+	&lt;b&gt;Contents:&lt;/b&gt;
+	&lt;ul class="toc1"/&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: target/classes&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="3"&gt;fit.ActionFixture&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td colspan="2"&gt;com.example.docker_prj.ChatServerActions&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;enter&lt;/td&gt;
+		&lt;td&gt;user&lt;/td&gt;
+		&lt;td&gt;anna&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="3"&gt;com.example.docker_prj.ChatServerActions&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;userName&lt;/td&gt;
+		&lt;td class="ignore"&gt;roomName&lt;/td&gt;
+		&lt;td class="ignore"&gt;userEntersRoom()&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;5&lt;/td&gt;
+		&lt;td class="ignore"&gt;3&lt;/td&gt;
+		&lt;td class="ignore"&gt;2&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>ChatRoomTest</relativePageName>
+          </result>
+      <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>1</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>2</totalRunTimeInMillis>
+  
+</testResults>
+

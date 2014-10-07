@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20140901</FitNesseVersion>
+  <rootPath>ChatRoomTest</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>9</exceptions>
+    </counts>
+    <runTimeInMillis>1</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;div class="contents"&gt;
+	&lt;b&gt;Contents:&lt;/b&gt;
+	&lt;ul class="toc1"/&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: target/classes&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="3"&gt;fit.ActionFixture&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;start&lt;hr/&gt; &lt;span class="fit_label"&gt;Could not find fixture: com.example.docker_prj.ChatServerActions.&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="2"&gt;com.example.docker_prj.ChatServerActions&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;enter&lt;hr/&gt; &lt;span class="fit_label"&gt;You must start a fixture using the 'start' keyword.&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;user&lt;/td&gt;
+		&lt;td&gt;anna&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;press&lt;hr/&gt; &lt;span class="fit_label"&gt;You must start a fixture using the 'start' keyword.&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="2"&gt;connect&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;enter&lt;hr/&gt; &lt;span class="fit_label"&gt;You must start a fixture using the 'start' keyword.&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;room&lt;/td&gt;
+		&lt;td&gt;lotr&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;press&lt;hr/&gt; &lt;span class="fit_label"&gt;You must start a fixture using the 'start' keyword.&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="2"&gt;new room&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;enter&lt;hr/&gt; &lt;span class="fit_label"&gt;You must start a fixture using the 'start' keyword.&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;user&lt;/td&gt;
+		&lt;td&gt;luke&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;press&lt;hr/&gt; &lt;span class="fit_label"&gt;You must start a fixture using the 'start' keyword.&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="2"&gt;connect&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;press&lt;hr/&gt; &lt;span class="fit_label"&gt;You must start a fixture using the 'start' keyword.&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="2"&gt;enter room&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;check&lt;hr/&gt; &lt;span class="fit_label"&gt;You must start a fixture using the 'start' keyword.&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;occupant count&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>ChatRoomTest</relativePageName>
+          </result>
+      <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>1</totalRunTimeInMillis>
+  
+</testResults>
+
