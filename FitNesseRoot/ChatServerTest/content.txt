@@ -8,7 +8,7 @@
  * Anna connects, creates a new room and enters it: 
 
 !|fit.ActionFixture|
-|start|ChatServer2|
+|start|ChatServer|
 |enter|user|anna|
 |press|connect|
 |enter|room|lotr|
@@ -17,17 +17,17 @@
 
  * Anna is the only occupant of lotr: 
 
-!|OccupantList2|
+!|OccupantList|
 |room|user|
 |lotr|anna|
 
  * Anna disconnects: 
 
 !|fit.ActionFixture|
-|start|ChatServer2|
+|start|ChatServer|
 |press|disconnect|
 
  * So there are now no occupants: 
 
-!|OccupantList2|
+!|OccupantList|
 |room|user|

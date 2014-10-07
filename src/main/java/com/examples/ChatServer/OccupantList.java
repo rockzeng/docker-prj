@@ -1,20 +1,31 @@
 package com.examples.ChatServer;
 
-import fit.RowFixture;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
-public class OccupantList extends RowFixture {
-//	private ChatServer chat = new ChatServer(); 
+import com.examples.ChatServer.chat.*;
 
-	@Override
-	public Class<?> getTargetClass() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public Object[] query() throws Exception {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
+public class OccupantList extends fit.RowFixture { 
+	public Object[] query() throws Exception { 
+		List occupancies = new ArrayList(); 
+		for (Iterator it = ChatServer.CHAT.getRooms(); 
+                      it.hasNext(); ) { 
+			Room room = (Room)it.next(); 
+			collectOccupants(occupancies,room); 
+		} 
+		return occupancies.toArray(); 
+	} 
+	
+	public Class getTargetClass() { 
+		return Occupancy.class; 
+	} 
+	
+	private void collectOccupants(List occupancies, Room room) {
+		for (Iterator it = room.users(); it.hasNext(); ) { 
+			User user = (User)it.next(); 
+			Occupancy occupant = new Occupancy(room.getName(), user.getName()); 
+			occupancies.add(occupant);
+		} 
+	} 
 }
